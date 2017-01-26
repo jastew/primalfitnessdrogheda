@@ -13,6 +13,11 @@ iframe {
     vertical-align: middle;
 }
 
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 .hero {
     position: relative;
 }
@@ -28,7 +33,11 @@ iframe {
 .hero__image,
 .hero__body {
     display: inline-block;
+    vertical-align: middle;
     width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .hero__image {
@@ -38,4 +47,26 @@ iframe {
 .hero__body {
     position: relative;
     z-index: 2;
+    padding: 1em;
+    text-align: center;
+}
+
+.hero__title {
+     text-transform: uppercase;
+ }
+
+.hero__text {
+    max-width: 20em;
+}
+
+
+
+.classes {
+
+}
+.classes__items {
+
+}
+.classes__item {
+    
 }
