@@ -7,6 +7,13 @@ banner:
 ---
 {% include hero.html %}
 
+<h2>Classes</h2>
+<ul>
+    {% for class in site.data.classes %}
+    <li>{{ class.title }}</li>
+    {% endfor %}
+</ul>
+
 <h2>Posts</h2>
 <ul>
     {% for post in site.posts %}
@@ -18,5 +25,12 @@ banner:
 <ul>
     {% for transformation in site.transformations %}
     <li><a href="{{ transformation.url }}">{{ transformation.name }}</a></li>
+    {% endfor %}
+</ul>
+
+<h2>Testimonials</h2>
+<ul>
+    {% for testimonial in site.testimonials %}
+    <li><a href="{{ testimonial.url }}">{{ testimonial.name }}</a></li>
     {% endfor %}
 </ul>
