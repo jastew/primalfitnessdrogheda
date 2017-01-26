@@ -38,8 +38,8 @@ gender:
     - female
 age:
     - "< 18"
-    - "18 - 30"
-    - "30 - 50"
+    - "18 to 30"
+    - "30 to 50"
     - "> 50"
 
 collections:
