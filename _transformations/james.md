@@ -2,6 +2,7 @@
 name: James
 category:
 thumbnail:
-gallery:
+images:
   - image:
+    caption:
 ---
