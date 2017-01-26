@@ -1,16 +1,8 @@
 ---
 layout: default
-banners:
-  - image: /uploads/screen-shot-2017-01-25-at-19-01-08.png
-  - image: /uploads/hero.jpg
+banner: /uploads/screen-shot-2017-01-25-at-19-01-08.png
 ---
-<div class="hero">
-    {% for banner in page.banners %}
-        <div>
-            <img src="{{ banner.image }}" alt="">
-        </div>
-    {% endfor %}
-</div>
+{% include hero.html %}
 
 <h2>Posts</h2>
 <ul>
