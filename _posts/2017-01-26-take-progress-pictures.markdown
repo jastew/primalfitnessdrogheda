@@ -1,5 +1,4 @@
 ---
-layout:
 title: 'Take progress pictures!'
 thumbnail:
 date: 2017-01-26 18:49:00
