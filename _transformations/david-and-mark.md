@@ -1,6 +1,6 @@
 ---
 name: David and Mark
-thumbnail:
+thumbnail: /uploads/transfomation2.jpg
 gender:
   - male
 age:
