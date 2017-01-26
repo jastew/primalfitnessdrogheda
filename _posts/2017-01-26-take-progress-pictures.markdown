@@ -1,6 +1,6 @@
 ---
 title: 'Take progress pictures!'
-thumbnail:
+thumbnail: /uploads/progress.jpg
 date: 2017-01-26 18:49:00
 categories:
   - jekyll
@@ -8,7 +8,7 @@ categories:
 ---
 
 
-![](/uploads/versions/progress---x----750-465x---.jpg)2-3 weeks into your new gym, class, running group, whatever it is…. looking at yourself in the mirror, you might not see the results you want….. don't throw in the towel.
+2-3 weeks into your new gym, class, running group, whatever it is…. looking at yourself in the mirror, you might not see the results you want….. don't throw in the towel.
 
 Right from the start take pictures of your body, same angles, same distance away from the camera, maybe even same clothes.
 
