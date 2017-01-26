@@ -1,9 +1,9 @@
 - title: 1 on 1 Personal Training
-  image:
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet delectus nam officiis!
+  image: /uploads/1on1-2.jpg
+  description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet delectus nam officiis!'
 - title: Small Group Training
-  image:
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  image: /uploads/group.jpg
+  description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
 - title: Body Transformation
-  image:
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet delectus nam officiis!
+  image: /uploads/conditioning.jpg
+  description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet delectus nam officiis!'
