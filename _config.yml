@@ -45,6 +45,9 @@ age:
 collections:
   transformations:
     output: true
+  testimonials:
+    output: false
+    _hide_content: true
 
 defaults:
   - scope:
