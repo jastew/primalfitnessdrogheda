@@ -7,30 +7,54 @@ banner:
 ---
 {% include hero.html %}
 
-<h2>Classes</h2>
-<ul>
-    {% for class in site.data.classes %}
-    <li>{{ class.title }}</li>
-    {% endfor %}
-</ul>
+<div class="classes">
+    <div class="container">
+        <!--<h2>Classes</h2>-->
+        <ul class="classes__items"><!--
+            {% for class in site.data.classes %}
+         --><li class="classes__item">
+                <div class="classes__image">
+                    <img src="{{ class.image }}" alt="">
+                </div>
+                <div class="classes__body">
+                    <h3 class="classes__title">{{ class.title }}</h3>
+                    <p class="classes__text">{{ class.description }}</p>
+                </div>
+            </li><!--
+            {% endfor %}
+     --></ul>
+    </div>
+</div>
 
-<h2>Posts</h2>
-<ul>
-    {% for post in site.posts %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
+<div class="posts">
+    <div class="container">
+        <h2>Posts</h2>
+        <ul>
+            {% for post in site.posts %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
 
-<h2>Transformations</h2>
-<ul>
-    {% for transformation in site.transformations %}
-    <li><a href="{{ transformation.url }}">{{ transformation.name }}</a></li>
-    {% endfor %}
-</ul>
+<div class="transformations">
+    <div class="container">
+        <h2>Transformations</h2>
+        <ul>
+            {% for transformation in site.transformations %}
+            <li><a href="{{ transformation.url }}">{{ transformation.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
 
-<h2>Testimonials</h2>
-<ul>
-    {% for testimonial in site.testimonials %}
-    <li><a href="{{ testimonial.url }}">{{ testimonial.name }}</a></li>
-    {% endfor %}
-</ul>
+<div class="testimonials">
+    <div class="container">
+        <h2>Testimonials</h2>
+        <ul>
+            {% for testimonial in site.testimonials %}
+            <li><a href="{{ testimonial.url }}">{{ testimonial.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
