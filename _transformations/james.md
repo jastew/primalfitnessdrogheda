@@ -1,6 +1,6 @@
 ---
 name: James
-category:
+gender: [male, female]
 thumbnail:
 images:
   - image:
