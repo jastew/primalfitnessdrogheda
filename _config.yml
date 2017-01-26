@@ -32,6 +32,15 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  
+gender:
+    - male
+    - female
+age:
+    - < 18
+    - 18 - 30
+    - 30 - 50
+    - > 50
 
 collections:
   - transformations
