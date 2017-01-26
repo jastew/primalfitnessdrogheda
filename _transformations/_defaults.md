@@ -2,6 +2,7 @@
 name:
 category:
 thumbnail:
-gallery:
-    - image:
+images:
+  - image:
+    caption:
 ---
