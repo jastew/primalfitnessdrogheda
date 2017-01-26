@@ -9,7 +9,7 @@ banner:
 
 <div class="classes">
     <div class="container">
-        <!--<h2>Classes</h2>-->
+        <h2 class="editable">What we can do for you</h2>
         <ul class="classes__items"><!--
             {% for class in site.data.classes %}
          --><li class="classes__item">
@@ -28,7 +28,7 @@ banner:
 
 <div class="posts">
     <div class="container">
-        <h2>Posts</h2>
+        <h2 class="editable">Posts</h2>
         <ul>
             {% for post in site.posts %}
             <li><a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -39,7 +39,7 @@ banner:
 
 <div class="transformations">
     <div class="container">
-        <h2>Transformations</h2>
+        <h2 class="editable">Transformations</h2>
         <ul>
             {% for transformation in site.transformations %}
             <li><a href="{{ transformation.url }}">{{ transformation.name }}</a></li>
@@ -50,7 +50,7 @@ banner:
 
 <div class="testimonials">
     <div class="container">
-        <h2>Testimonials</h2>
+        <h2 class="editable">Testimonials</h2>
         <ul>
             {% for testimonial in site.testimonials %}
             <li><a href="{{ testimonial.url }}">{{ testimonial.name }}</a></li>
