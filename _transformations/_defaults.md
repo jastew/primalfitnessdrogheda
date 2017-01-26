@@ -1,9 +1,8 @@
 ---
 name:
-category:
-thumbnail:
 gender:
 age:
+thumbnail:
 images:
   - image:
     caption:

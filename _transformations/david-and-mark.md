@@ -1,10 +1,10 @@
 ---
 name: David and Mark
-thumbnail: /uploads/transfomation2.jpg
 gender:
   - male
 age:
   - 30 to 50
+thumbnail: /uploads/transfomation2.jpg
 images:
   - image:
     caption:

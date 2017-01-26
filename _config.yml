@@ -26,7 +26,7 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
 gems:
   - jekyll-feed
 exclude:
@@ -43,9 +43,15 @@ age:
     - "> 50"
 
 collections:
-  - transformations
+  transformations:
+    output: true
 
 defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      permalink: /posts/:title.html
   - scope:
       path: ""
       type: transformations
